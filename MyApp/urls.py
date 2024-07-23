@@ -26,8 +26,8 @@ urlpatterns = [
     path("portfolio/", views.portfolio, name="portfolio"),
     path("pricing/", views.pricing, name="pricing"),
     path("card1/", views.card1, name="card1"),
+    path("card2/", views.card2, name="card2"),
     path("card3/", views.card3, name="card3"),
-    path("card6/", views.card6, name="card6"),
 
 ]
 
