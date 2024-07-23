@@ -16,8 +16,8 @@ def card1(request):
     return render(request, "MyApp/card1.html", {})
 
 
+def card2(request):
+    return render(request, "MyApp/card2.html", {})
+
 def card3(request):
     return render(request, "MyApp/card3.html", {})
-
-def card6(request):
-    return render(request, "MyApp/card6.html", {})
