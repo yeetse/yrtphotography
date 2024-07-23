@@ -25,7 +25,7 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("portfolio/", views.portfolio, name="portfolio"),
     path("pricing/", views.pricing, name="pricing"),
-    path('Porsche 993 RWB "Desire" - Coffee and Cars/', views.card1, name="card1"),
+    path("Porsche 993 RWB 'Desire' - Coffee and Cars/", views.card1, name="card1"),
     path("Porsche 964 Carrera 2 - The Car Culture/", views.card3, name="card3"),
     path("Pagani Huayra Roadster Exposed Blue Carbon - Coffee and Cars/", views.card6, name="card6"),
 
