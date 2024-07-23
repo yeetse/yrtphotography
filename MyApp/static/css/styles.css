@@ -10854,25 +10854,25 @@ textarea.form-control-lg {
 @media (min-width: 301px) and (max-width: 600px) {
   body {
   background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.png");
-  background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
   body {
   background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.png");
-  background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   }
 }
 @media (min-width: 769px) {
   body {
   background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.png");
-  background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   }
 }
 
