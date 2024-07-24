@@ -10848,7 +10848,7 @@ textarea.form-control-lg {
 
 
 
-@media (min-width: 200px) and (max-width: 400px) {
+@media (min-width: 200px) and (max-width: 475px) {
   body {
     background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg2.png");
     background-attachment: fixed;
@@ -10857,7 +10857,7 @@ textarea.form-control-lg {
   }
 }
 
-@media (min-width: 401px) and (max-width: 675px) {
+@media (min-width: 476px) and (max-width: 675px) {
   body {
     background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg3.png");
     background-attachment: fixed;
