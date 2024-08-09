@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="en" xmlns="http://www.w3.org/1999/html">
+{% load static %}
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -30,6 +30,7 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'index' %}">Home</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'pricing' %}">Pricing</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'portfolio' %}">Portfolio</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'contact' %}">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +48,7 @@
                                 <!-- card one -->
                                 <div class="col-md-4">
                                     <div class="card">
-                                      <a href="{% url 'card1' %}"> <img src= "{% static 'assets/img/cover1.JPG' %}" class="card-img-top" alt="..."></a>
+                                      <a href="{% url 'card1' %}"> <img src="/static/assets/img/cover1.jpg" class="card-img-top" alt="..."></a>
                                       <div class="card-body">
                                         <h5 class="card-title">Porsche 993 RWB "Desire"</h5>
                                          <h5 class="card-title">Coffee and Cars</h5>
@@ -59,7 +60,7 @@
                                 <!-- card three -->
                                 <div class="col-md-4">
                                     <div class="card">
-                                      <a href="{% url 'card2' %}"> <img src="/static/assets/img/cover3.JPG" class="card-img-top" alt="..."></a>
+                                      <a href="{% url 'card3' %}"> <img src="/static/assets/img/cover3.jpg" class="card-img-top" alt="..."></a>
                                       <div class="card-body">
                                         <h5 class="card-title">Porsche 964 Carrera 2</h5>
                                         <h5 class="card-title">The Car Culture</h5>
@@ -69,7 +70,7 @@
 
                                 <div class="col-md-4">
                                     <div class="card">
-                                      <a href="{% url 'card3' %}"> <img src="/static/assets/img/cover6.JPG" class="card-img-top" alt="..."></a>
+                                      <a href="{% url 'card6' %}"> <img src="/static/assets/img/cover6.jpg" class="card-img-top" alt="..."></a>
                                       <div class="card-body">
                                         <h5 class="card-title">Pagani Huayra Roadster Exposed Blue Carbon</h5>
                                         <h5 class="card-title">Coffee and Cars</h5>
@@ -82,48 +83,6 @@
                 </div>
             </div>
 
-
-
-        </section>
-        <section class="page-section cta">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <div class ="text-center" >
-                                <h2 class="section-heading mb-4" >
-                                    <span class="section-heading-lower">Get in Touch</span>
-                                </h2>
-                                <p class="mb-3"> Fill out the form to contact me directly regarding 
-                                    general questions or to book a shoot. I will get back to you so 
-                                    that we can arrange a date and location
-                                </p>
-                            </div>
-                            <div class= "row justify-content-center my-5">
-                                <div class="col-lg-6">                                  
-                                    <form action="https://formsubmit.co/06e898ac56d36faf1e9fb746f6d7113a" method="POST">
-                                        <input type="hidden" name="_url" value="https://yrtphotography.vercel.app/portfolio/">
-
-                                        <label for="email" class="form-label">Email address: </label>
-                                        <input type ="email" class="form-control" name = "email" id= "email" placeholder ="e.g. johnsmith@example.com">
-
-                                        <label for="name" class ="form-label">Name: </label>
-                                        <input type ="text" class="form-control" name = "name" id="name" placeholder="e.g. John Smith">
-
-                                        <label for="query" class ="form-label">Your query...</label>
-                                        <textarea name = "query" id ="query" class="form-control" style="height: 140px"></textarea>
-
-                                        <div class ="mb-4 text-center">
-                                            <button type ="submit" class="btn btn-secondary" style="color:black;">Submit</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; YRT Photography 2024</p></div>
