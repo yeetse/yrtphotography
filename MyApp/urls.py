@@ -25,6 +25,7 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("portfolio/", views.portfolio, name="portfolio"),
     path("pricing/", views.pricing, name="pricing"),
+    path("contact/", views.contact, name="contact"),
     path("card1/", views.card1, name="card1"),
     path("card2/", views.card2, name="card2"),
     path("card3/", views.card3, name="card3"),
